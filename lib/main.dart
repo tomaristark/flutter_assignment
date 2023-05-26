@@ -1,4 +1,5 @@
 import 'package:assignment_flu/profile/profile_1.dart';
+import 'package:assignment_flu/profile/profile_2.dart';
 import 'package:assignment_flu/widget_1/container_test.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home:profile_1(),
+      debugShowCheckedModeBanner:false,
+      home: Profile2()
+      // home:profile_1(),
     );
   }
 }
