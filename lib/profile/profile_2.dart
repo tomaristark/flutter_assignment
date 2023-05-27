@@ -71,7 +71,8 @@ class Profile2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(100),
                   ),
                   alignment: Alignment.centerLeft,
-                  child: const Text("      Hello@gmail.com",
+                  padding: const EdgeInsets.only(left:20),
+                  child: const Text("Hello@gmail.com",
                     style: TextStyle(
                       fontSize: 14,
                       color:  Color.fromRGBO(84, 151, 228,1),
@@ -89,7 +90,8 @@ class Profile2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(100),
                   ),
                   alignment: Alignment.centerLeft,
-                  child: const Text("     Fname",
+                  padding: const EdgeInsets.only(left:20),
+                  child: const Text("Fname",
                     style: TextStyle(
                       fontSize: 14,
                       color:  Color.fromRGBO(84, 151, 228,1),
@@ -107,7 +109,8 @@ class Profile2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(100),
                   ),
                   alignment: Alignment.centerLeft,
-                  child: const Text("      Sname",
+                  padding: const EdgeInsets.only(left:20),
+                  child: const Text("Sname",
                     style: TextStyle(
                       fontSize: 14,
                       color:  Color.fromRGBO(84, 151, 228,1),
