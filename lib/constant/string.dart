@@ -1,0 +1,10 @@
+const kCreateAccount = "CREATE ACCOUNT";
+const kYourName ="Your Name";
+const kPassword ="Password";
+const kEmail ="Email";
+const kRepeatYourPassword="Repeat your password";
+const kSignUp = "SIGN UP";
+const kAgreeMent = "I agree all statement in ";
+const kTermsOfServices ="terms of services";
+const kHaveAnAccount = "Have already an Account ? ";
+const kLogIn = "Login Here";
